@@ -2,22 +2,22 @@
 
 # SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-Date:
+**Date:**
 
 
 
 
-AIM: 
+**AIM:** 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Xilinx ISE.
 
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 Xilinx 14.7,
 Spartan6 FPGA
 
 
   
-PROCEDURE:
+**PROCEDURE:**
 
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 
@@ -41,13 +41,13 @@ STEP:10 Double click on the Implement Design and double click on the Generate Pr
 
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-SR FLIPFLOP
+**SR FLIPFLOP**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module srff(clk,rst,s,r,q);
 input clk,rst,s,r;
@@ -70,17 +70,17 @@ end
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/3b3e747d-5700-49f6-a013-a98d3421a1fc)
 
-JK FLIPFLOP
+**JK FLIPFLOP**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/fc45dfc1-482b-4488-84c4-ab6c6d25cfb4)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module jkff(clk,rst,j,k,q);
@@ -104,17 +104,17 @@ end
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/5cdedead-2cba-4a22-a980-94a1803f5658)
 
-T FLIPFLOP
+**T FLIPFLOP**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/ed7709e6-c3ee-43cd-92d3-312e54eef534)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module tff(clk,rst,t,q);
@@ -132,17 +132,17 @@ always @(posedge clk)
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/e3f23e0f-f205-4e39-b533-3017f4d5dcd6)
 
-D FLIPFLOP
+**D FLIPFLOP**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/f1fcee9c-4c9d-455b-ab01-cad45eb7df17)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module dff(d,clk,rst,q);
@@ -159,19 +159,19 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/5028b57e-ea37-4e22-9396-41e6f14480d3)
 
-COUNTER
+**COUNTER**
 
-MOD10COUNTER:
+**MOD10COUNTER:**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/d533df00-1d8d-4c8b-a13e-7872d43968e6)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
  ```
 module mod10counter(clk,rst,count);
@@ -188,17 +188,17 @@ end
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/106c2988-541b-4df8-a7bf-fda589a88c6f)
 
-UP COUNTER
+**UP COUNTER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/be6d9b0e-f1c7-4809-a314-e631cad32156)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module upcounter(clk,rst,count);
@@ -215,17 +215,17 @@ end
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/c3b452b7-df21-4937-9eba-eb3ef7496319)
 
-DOWN COUNTER
+**DOWN COUNTER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/f796778b-390b-4411-a7c6-5036e76be5c9)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module downcounter(clk,rst,count);
@@ -242,17 +242,17 @@ end
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/facb5dd8-b4d0-46e7-a887-c0198f587278)
 
-RIPPLE COUNTER
+**RIPPLE COUNTER**
 
-LOGIC DIAGRAM:
+**LOGIC DIAGRAM:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/2d096c98-9ca9-4798-b641-d8b12b9ce460)
 
-VERILOG CODE:
+**VERILOG CODE:**
 
 ```
 module jkff(j,k,clock,reset,q,qb);
@@ -281,11 +281,11 @@ endmodule
 ```
 
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/Bharathsampat/VLSI-LAB-EXP-4/assets/147235565/afdb5712-bc5f-43e4-a0d6-3ced8acb5f00)
 
-RESULT:
+**RESULT:**
 Hence, the simulation and synthesis of SR, JK, T, D - FLIPFLOP, COUNTER DESIGN is verified using Xilinx ISE.
 
 
